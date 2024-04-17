@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "firebase": "^10.11.0",
+    "firebase-admin": "^12.0.0",
+    "react-bootstrap": "^2.10.2"
+  },
+  "name": "capstone",
+  "version": "1.0.0",
+  "main": "node.js",
+  "devDependencies": {
+    "vite": "^5.2.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
