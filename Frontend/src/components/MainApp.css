@@ -1,0 +1,17 @@
+/* MainApp.css */
+
+/* Set background image for the main container */
+.main-container {
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* MainApp.css */
+
+/* Background image only visible when authenticated */
+.main-container.authenticated {
+    background-image: url('../images/backgrounds/worldbuilding.jpg'); /* Adjust the path as needed */
+}

@@ -4,7 +4,7 @@ import LoginPage from './components/LoginPage'; // Import the LoginPage componen
 import MainApp from './components/MainApp'; // Import the MainApp component
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // State to track authentication status
+  const [isLoggedIn, setIsLoggedIn] = useState(true); // State to track authentication status
   const [data, setData] = useState([]);
 
   useEffect(() => {

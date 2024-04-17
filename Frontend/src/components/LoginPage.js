@@ -4,7 +4,7 @@ import './LoginPage.css'; // Import the LoginPage styles
 function LoginPage() {
   return (
     <div className="login-page">
-      <h1 className="login-header">Master Codex</h1>
+      <h1 className="login-header">Codex of Worlds</h1>
       <div className="login-container">
         <h2>Login</h2>
         <form>
