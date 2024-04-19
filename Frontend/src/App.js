@@ -26,10 +26,15 @@ firebase.initializeApp(firebaseConfig);
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  const handleLogin = () => {
-    // Perform login logic here (e.g., validate credentials)
-    // For simplicity, just set isLoggedIn to true
-    setIsLoggedIn(true);
+  const handleLogin = async () => {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    try {
+      const result = await firebase.auth().signInWithPopup(provider);
+      setIsLoggedIn(true);
+      console.log('Successfully logged in:', result.user.displayName);
+    } catch (error) {
+      console.error('Error signing in with Google:', error);
+    }
   };
 
   return (
