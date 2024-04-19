@@ -1,3 +1,5 @@
+// LoginPage.js
+
 import React, { useState } from 'react';
 import './LoginPage.css'; // Import the LoginPage styles
 import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
