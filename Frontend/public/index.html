@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Codex of Worlds</title>
+  <title>Your Web App</title>
 </head>
 <body>
+  <!-- Your React app container -->
   <div id="root"></div>
+
+  <!-- Include your Firebase SDK configuration -->
+  <script>
+    // Initialize Firebase
+    var firebaseConfig = {
+      apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+      authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+      // Add other Firebase config properties...
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <!-- Include your React app bundle -->
+  <script src="path/to/your/App.js"></script>
 </body>
 </html>
