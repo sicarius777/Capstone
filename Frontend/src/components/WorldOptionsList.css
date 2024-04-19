@@ -1,0 +1,18 @@
+.world-options-list {
+  position: absolute;
+  top: 50%; /* Position it vertically centered */
+  left: 100%; /* Position it to the right of the hovered world */
+  transform: translate(10px, -50%); /* Adjust the position slightly */
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.option {
+  padding: 5px;
+}
+
+  

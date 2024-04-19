@@ -1,18 +1,1 @@
 /* App.css */
-
-/* Set background image for the body */
-body {
-    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/53caaa13765247.5627c610b32e3.JPG'); /* Replace 'leather-texture.jpg' with the path to your leather texture image */
-    background-size: cover; /* Cover the entire body with the background image */
-    background-repeat: no-repeat; /* Prevent background image from repeating */
-}
-
-/* Center the "Master Codex" header */
-.App-header {
-    color: #080000; /* Set the text color to brown */
-    position: absolute;
-    top: 50%; /* Position at the vertical center */
-    left: 50%; /* Position at the horizontal center */
-    transform: translate(-50%, -50%); /* Center the header */
-    z-index: 1; /* Ensure the header appears above the background */
-}

@@ -1,17 +1,82 @@
 /* MainApp.css */
-
-/* Set background image for the main container */
-.main-container {
-    display: flex;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.main-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /*background-color: black; /* Set the background color to black */
 }
 
 /* MainApp.css */
+.main-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(https://jtgreathouse.wordpress.com/wp-content/uploads/2015/03/worldbuilding.jpg);
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
 
-/* Background image only visible when authenticated */
-.main-container.authenticated {
-    background-image: url('../images/backgrounds/worldbuilding.jpg'); /* Adjust the path as needed */
+
+.top-bar {
+  background-color: #808080; /* Stone grey */
+  color: white;
+  padding: 10px;
+  height: 60px; /* Set the height to your desired value */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.side-bar {
+  background-color: #d3d3d3; /* Light grey */
+  padding: 10px;
+  width: 200px; /* Set a fixed width for the side bar */
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+}
+/* MainApp.css */
+.side-bar {
+  background-color: #d3d3d3; /* Light grey */
+  padding: 20px;
+  width: 200px;
+}
+
+.side-bar h2, .side-bar h3 {
+  margin-top: 0;
+}
+
+.side-bar form {
+  margin-bottom: 20px;
+}
+
+.side-bar label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.side-bar input[type="text"],
+.side-bar input[type="file"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.side-bar button {
+  width: 100%;
+  padding: 10px;
+  background-color: #808080; /* Stone grey */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.side-bar button:hover {
+  background-color: #666666; /* Darker stone grey */
 }
